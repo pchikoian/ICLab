@@ -1,0 +1,9 @@
+Free Tier*
+As part of AWS’s Free Usage Tier, new AWS customers can get started with Amazon EC2 for free. Upon sign-up, new AWS customers receive the following EC2 services each month for one year:
+
+750 hours of EC2 running Linux/Unix Micro instance usage
+750 hours of EC2 running Microsoft Windows Server Micro instance usage
+750 hours of Elastic Load Balancing plus 15 GB data processing
+30 GB of Amazon EBS Standard volume storage plus 2 million IOs and 1 GB snapshot storage
+15 GB of bandwidth out aggregated across all AWS services
+1 GB of Regional Data Transfer
