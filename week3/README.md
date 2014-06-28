@@ -23,3 +23,14 @@ Integer can also assign to Short/Byte
 ### Object Equality
 
 # Chapter 6 Functional Object
+### Constructor
+### Reimplement method
+### Check condition
+### Add Field
+### Self Reference
+### Auxiliary Constructor
+### Private method and field
+### Identifier 
+### Implicit Conversions
+
+# Practice #week4
