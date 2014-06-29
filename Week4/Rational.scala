@@ -25,11 +25,16 @@ class Rational(n:Int, d:Int){
 
 	def * (x:Rational) = new Rational(numer * x.numer, denom * x.denom)
 		
-	def / (x:Int) = new Rational(numer, x * denom)
-	
-	def / (x:Rational) = new Rational(numer * x.denom, denom * x.numer)
+	def / (x:Int) = {
+		require(x != 0)
+		new Rational(numer, x * denom)
+	}
 
-	override def toString = numer + "/" + denom	
+	def / (x:Rational) = {
+		require(x.denom != 0)	
+		new Rational(numer * x.denom, denom * x.numer)
+	}
+	override def toString() = if(this.denom != 1) this.numer + "/" + this.denom else this.numer.toString 
 
 	private def gcd(a: Int, b: Int): Int = 
 		if (b == 0) a else gcd(b, a % b)
